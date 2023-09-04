@@ -1,5 +1,6 @@
 from machine import Pin
-led = Pin(16, Pin.OUT)
+led = Pin(17, Pin.OUT)
+led.value(1)
 
 led.toggle()
 
